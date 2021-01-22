@@ -1,0 +1,1 @@
+create database ibrahimov_notes;
