@@ -1,5 +1,5 @@
 create function select_note(note_id uuid)
-returns table(uuid integer, header varchar, body varchar, is_deleted boolean, user_id integer,
+returns table(id uuid, header varchar, body varchar, is_deleted boolean, user_id integer,
              modified_at timestamp with time zone, first_name varchar, last_name varchar)
 as
 $$
